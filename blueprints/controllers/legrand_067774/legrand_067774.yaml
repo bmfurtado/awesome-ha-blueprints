@@ -133,9 +133,9 @@ variables:
       button_top_left_release: [bightness_stop_left]
   # pre-choose actions for buttons based on configured integration
   # no need to perform this task at automation runtime
-  button_left_short: '{{ actions_mapping[integration_id]["button_left_short"] }}'
-  button_left_long: '{{ actions_mapping[integration_id]["button_left_long"] }}'
-  button_left_release: '{{ actions_mapping[integration_id]["button_left_release"] }}'
+  button_off_left_short: '{{ actions_mapping[integration_id]["button_off_left_short"] }}'
+  button_off_left_long: '{{ actions_mapping[integration_id]["button_off_left_long"] }}'
+  button_off_left_release: '{{ actions_mapping[integration_id]["button_off_left_release"] }}'
   # integrations which need to store the previous long press event to determine which button was released
   integrations_with_prev_event_storage: [zha]
   # build data to send within a controller event
