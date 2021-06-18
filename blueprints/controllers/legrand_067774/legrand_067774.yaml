@@ -128,9 +128,9 @@ variables:
   # mapping between actions and integrations
   actions_mapping:
     zigbee2mqtt:
-      button_top_left_short: [off_left]
-      button_top_left_long: [brightness_move_down_left]
-      button_top_left_release: [bightness_stop_left]
+      button_off_left_short: [off_left]
+      button_off_left_long: [brightness_move_down_left]
+      button_off_left_release: [bightness_stop_left]
   # pre-choose actions for buttons based on configured integration
   # no need to perform this task at automation runtime
   button_off_left_short: '{{ actions_mapping[integration_id]["button_off_left_short"] }}'
